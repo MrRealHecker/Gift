@@ -66,13 +66,13 @@ function draw() {
 
   textSize(20);
   text("It will sound better on high volume (i promise it's nothing scary)", windowWidth/2 ,windowHeight-150);
-  
   text("@harnamansingh",windowWidth-150,windowHeight-50);
   text("Click the button above to get your gift!", windowWidth/2,windowHeight/2 + 100);
-  textSize(15);
-  Engine.update(engine);
+  
+  
+  
+ Engine.update(engine);
 
- 
  drawSprites();
   preload();
   
