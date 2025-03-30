@@ -78,7 +78,7 @@ function rickrolled() {
 
   background(bg2);
 
- rick=createVideo("assets/rickroll.mp4");
+ rick=createVideo("assets/Rickroll.mp4");
   rick.size(500,500);
   rick.position(windowWidth/3,windowHeight/5);
   rick.loop();
@@ -89,7 +89,4 @@ function rickrolled() {
   textSize(60);
   text("get rickrolled!!! hahahaahaha!!!", windowWidth/2,windowHeight/5);
   
- 
-  
-  play.visible=false;
 }
