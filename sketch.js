@@ -48,7 +48,7 @@ function setup() {
   
   play.position(windowWidth/2-150,windowHeight/2);
    
-  play.mousePressed(rickrolled(),play.visible=false);
+ 
   
   
 }
@@ -65,13 +65,10 @@ function draw() {
   text("hope you like it :)", windowWidth/2,windowHeight/5 +50);
   text("please turn your volume up (i promise it's nothing scary)", windowWidth/2 ,windowHeight-100);
   
+   play.mousePressed(rickrolled());
   Engine.update(engine);
-
- 
-  
   preload();
-  
-}
+  }
 
 
 function rickrolled() {
