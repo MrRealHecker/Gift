@@ -63,8 +63,7 @@ function draw() {
   textSize(40);
   text("I wanted to give you a gift....", windowWidth/2,windowHeight/5);
   text("hope you like it :)", windowWidth/2,windowHeight/5 +50);
-
-  textSize(20);
+  //textSize(20);
   text("It will sound better on high volume (i promise it's nothing scary)", windowWidth/2 ,windowHeight-150);
   text("@harnamansingh",windowWidth-150,windowHeight-50);
   text("Click the button above to get your gift!", windowWidth/2,windowHeight/2 + 100);
