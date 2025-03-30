@@ -68,7 +68,7 @@ function draw() {
   Engine.update(engine);
 
  
-  drawSprites();
+  
   preload();
   
 }
