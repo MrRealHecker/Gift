@@ -71,7 +71,7 @@ function draw() {
  drawSprites();
   preload();
 
-  text('@harnamansingh', windowWidth-100,windowHeight-100)
+  text('@harnamansingh', windowWidth-100,windowHeight/2)
   
 }
 
