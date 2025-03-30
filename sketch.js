@@ -70,7 +70,11 @@ function draw() {
  
  drawSprites();
   preload();
-
+  
+ fill("White");
+  textAlign("center");
+  textFont("Comic Sans MS");
+  textSize(20);
   text('@harnamansingh', windowWidth-100,windowHeight/2)
   
 }
