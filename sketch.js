@@ -56,7 +56,8 @@ function setup() {
 function draw() {
   background(bg1);
 
- fill("White");
+ 
+  fill("White");
   textAlign("center");
   textFont("Comic Sans MS");
   textSize(40);
@@ -69,10 +70,12 @@ function draw() {
   text("@harnamansingh",windowWidth-150,windowHeight-50);
   text("Click the button above to get your gift!", windowWidth/2,windowHeight/2 + 100);
   textSize(15);
-  
   Engine.update(engine);
-  drawSprites();
-  preload(); 
+
+ 
+ drawSprites();
+  preload();
+  
 }
 
 
