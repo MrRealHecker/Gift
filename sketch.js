@@ -5,7 +5,7 @@ const Constraint = Matter.Constraint;
 
 var engine, world;
 var canvas,bg1,pl1,bg2;
-var rick,rt;
+var rick,rt,play;
 
 
 function preload(){
@@ -48,7 +48,7 @@ function setup() {
   
   play.position(windowWidth/2-150,windowHeight/2);
    
-  play.mousePressed(rickrolled,play.visible=false);
+  play.mousePressed(rickrolled(),play.visible=false);
   
   
 }
