@@ -75,7 +75,7 @@ function draw() {
   textAlign("center");
   textFont("Comic Sans MS");
   textSize(20);
-  text('@harnamansingh', windowWidth-100,windowHeight/2)
+  text("@harnamansingh", windowWidth/2,windowHeight/2)
   
 }
 
