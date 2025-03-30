@@ -64,19 +64,11 @@ function draw() {
   text("I wanted to give you a gift....", windowWidth/2,windowHeight/5);
   text("hope you like it :)", windowWidth/2,windowHeight/5 +50);
   text("please turn your volume up (i promise it's nothing scary)", windowWidth/2 ,windowHeight-100);
-  
-  Engine.update(engine);
-
- 
- drawSprites();
-  preload();
-  
- fill("White");
-  textAlign("center");
-  textFont("Comic Sans MS");
-  textSize(20);
   text("@harnamansingh", windowWidth/2,windowHeight/2)
   
+  Engine.update(engine);
+  drawSprites();
+  preload(); 
 }
 
 
